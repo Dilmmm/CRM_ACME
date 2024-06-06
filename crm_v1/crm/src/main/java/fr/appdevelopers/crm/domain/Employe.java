@@ -8,7 +8,6 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "Employe")
-@Component
 public class Employe extends Utilisateur{
 
     @Column(name = "mot_de_passe")
