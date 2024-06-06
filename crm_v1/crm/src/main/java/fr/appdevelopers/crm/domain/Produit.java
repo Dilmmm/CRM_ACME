@@ -10,8 +10,7 @@ import java.util.Random;
 
 @Entity
 @Table(name = "Produit")
-@Component
-public class Produit implements Cloneable{
+public class Produit{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_produit")
