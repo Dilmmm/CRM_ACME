@@ -10,7 +10,6 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "Client")
-@Component
 public class Client extends Utilisateur{
     @Column(name = "date_affiliation")
     private Date dateAffiliation;
