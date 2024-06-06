@@ -6,10 +6,7 @@ import org.springframework.stereotype.Component;
 @Entity
 @Table(name = "Utilisateur")
 @Inheritance(strategy=InheritanceType.JOINED)
-@Component
-public abstract class
-
-Utilisateur {
+public abstract class Utilisateur {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_utilisateur")
